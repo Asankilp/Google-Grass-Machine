@@ -4,7 +4,11 @@ Google生草机（重复翻译同一句子）
 此程序使用了[googletrans](https://pypi.python.org/pypi/googletrans)包以调用Google翻译API。  
 # 用法
 使用Python3运行，并安装googletrans和openssl：  
-    pip install googletrans
-    pip install openssl  
-安装完毕后，使用Python运行：  
-    python googlegrassmachine.py
+```
+pip install googletrans
+pip install openssl
+```
+安装完毕后，使用Python运行： 
+```
+python googlegrassmachine.py
+```
