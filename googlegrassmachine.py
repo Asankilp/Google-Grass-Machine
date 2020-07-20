@@ -6,7 +6,7 @@ translator = Translator(service_urls=['translate.google.cn'])
 #使用命令：pip install googletrans , pip install openssl
 src2 = input('请输入原句：')
 count = 0
-lang = ['de','en','ja','da','fr','ny','af','af','az','eu','ml','pl','uk','he','gl','ht','sd','es','zh-cn']
+lang = ['de','en','ja','da','fr','ny','af','af','az','eu','ml','pl','uk','he','gl','ht','sd','es','my','zh-cn']
 for mubiao in lang:
     count = count + 1
     src2 = translator.translate(src2,dest=mubiao).text
