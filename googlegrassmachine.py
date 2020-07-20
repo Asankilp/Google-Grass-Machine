@@ -1,7 +1,7 @@
 #谷歌全自动生草机 by Asankilp
 #输入的句子将自动检测语言，并进行重复翻译。
-#请使用Python3运行此程序，使用前请安装googletrans和openssl。
-#使用命令：pip install googletrans , pip install openssl来安装依赖包。
+#请使用Python3运行此程序，使用前请安装googletrans。
+#使用命令：pip install googletrans来安装依赖包。
 from googletrans import Translator
 translator = Translator(service_urls=['translate.google.cn']) #将翻译服务URL替换为国内区域名
 src2 = input('请输入原句：')

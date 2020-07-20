@@ -3,10 +3,9 @@ Google生草机（重复翻译同一句子）
 ~~此程序是我第一次写python，代码技术含量低，望指教~~  
 此程序使用了[googletrans](https://pypi.python.org/pypi/googletrans)包以调用Google翻译API。  
 # 用法
-安装googletrans和openssl：  
+安装googletrans：  
 ```
 pip install googletrans
-pip install openssl
 ```
 安装完毕后，使用Python3运行： 
 ```
