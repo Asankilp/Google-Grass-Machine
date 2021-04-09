@@ -12,3 +12,5 @@ pip install googletrans==4.0.0-rc1
 ```
 python googlegrassmachine.py
 ```
+## 使用`GoogleGM_qqbot.py`
+`GoogleGM_qqbot.py`可通过uvicorn及[go-cqhttp](http://github.com/Mrs4s/go-cqhttp)来对QQ机器人提供支持。
