@@ -1,7 +1,5 @@
 #谷歌全自动生草机 by Asankilp and Jerry196
 #输入的句子将自动检测语言，并进行重复翻译。
-#请使用Python3运行此程序，使用前请安装googletrans。
-#使用命令：pip install googletrans来安装依赖包。
 from googletrans import Translator
 translator = Translator(service_urls=['translate.google.cn']) #将翻译服务URL替换为国内区域名
 lang = ['de','en','ja','da','fr','ny','af','af','az','eu','ml','pl','uk','he','gl','ht','sd','es','my','zh-cn'] #翻译次数及语言
@@ -36,8 +34,5 @@ elif choice == 2:
     #with open("./output.txt",encoding="utf-8",mode="a") as Output:Output.write('--------------------------')
     print('翻译完成。共翻译了 '+str(count3)+'段。')
     print("已将翻译结果存储至output.txt。请在文件中确认。")
-#elif choice == 3:
-  #  pass
-   # ##TODO:制作GUI,大咕等周末吧
 else:
     print('选项无效')
